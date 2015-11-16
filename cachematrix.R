@@ -37,9 +37,9 @@ cacheSolve <- function(x, ...) {
 }
 
 
-# (e.g.) creating 3x3 matrix with random integer between 1 and 10
-mat <- matrix(sample(1:10,9),3,3)
+## (e.g.) creating 3x3 matrix with random integer between 1 and 10
+# mat <- matrix(sample(1:10,9),3,3)
 
-# and calling makeCacheMatrix() and then cacheSolve()
-a <- makeCacheMatrix(mat)
-cacheSolve(a)
+## and calling makeCacheMatrix() and then cacheSolve()
+# a <- makeCacheMatrix(mat)
+# cacheSolve(a)
